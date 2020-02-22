@@ -9,7 +9,7 @@ RUN mkdir /app
 # into our /app directory
 ADD . /app
 # We add test file to ensure container returns "Hello, World!"
-RUN echo 'Hello, World! /' > /test.txt
+RUN echo 'Hello, World!' > /test.txt
 # We specify that we now wish to execute 
 # any further commands inside our /app
 # directory
